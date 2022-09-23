@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "X9oGqverf5smohTm4eNpI5JUldA1m2DQNw4LvHdVTRDtc3ds6dasUjWh26SjSEQyy3tMlO6ehoCKqtobhiHXNw==",
+  "success": true,
+  "projectFilePath": "D:\\DOCUMENTOS\\DEV\\desarrollos-maquetas\\netcore-test\\Web.App\\Web.App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.typescript.msbuild\\4.8.3\\microsoft.typescript.msbuild.4.8.3.nupkg.sha512"
+  ],
+  "logs": []
+}

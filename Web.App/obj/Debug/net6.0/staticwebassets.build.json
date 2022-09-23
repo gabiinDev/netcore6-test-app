@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "sFSrofbmeLbBXTOBKhNvxIKf+jVahZcbkAHriqACxDs=",
+  "Source": "Web.App",
+  "BasePath": "_content/Web.App",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Web.App\\wwwroot",
+      "Source": "Web.App",
+      "ContentRoot": "D:\\DOCUMENTOS\\DEV\\desarrollos-maquetas\\netcore-test\\Web.App\\wwwroot\\",
+      "BasePath": "_content/Web.App",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\DOCUMENTOS\\DEV\\desarrollos-maquetas\\netcore-test\\Web.App\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Web.App.styles.css",
+      "SourceId": "Web.App",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\DOCUMENTOS\\DEV\\desarrollos-maquetas\\netcore-test\\Web.App\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/Web.App",
+      "RelativePath": "Web.App.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\DOCUMENTOS\\DEV\\desarrollos-maquetas\\netcore-test\\Web.App\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Web.App.styles.css"
+    },
+    {
+      "Identity": "D:\\DOCUMENTOS\\DEV\\desarrollos-maquetas\\netcore-test\\Web.App\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Web.App.bundle.scp.css",
+      "SourceId": "Web.App",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\DOCUMENTOS\\DEV\\desarrollos-maquetas\\netcore-test\\Web.App\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Web.App",
+      "RelativePath": "Web.App.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\DOCUMENTOS\\DEV\\desarrollos-maquetas\\netcore-test\\Web.App\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Web.App.bundle.scp.css"
+    }
+  ]
+}

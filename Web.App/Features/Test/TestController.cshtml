@@ -1,0 +1,17 @@
+﻿<template id="test-component-template">
+    <div id="test-component">
+        <div class="row">
+            <div class="col-md-12">
+               <p>hola test component</p>
+               <button class="btn btn-sm btn-primary" v-on:click="buscarUsuarios">Buscar usuarios</button>
+               <p>cantidad: {{ usuarios }}</p>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+    window.onload = function() {
+        Vue.component("test-component", new NF(new Siniestros.TestController()));
+    };
+</script>
