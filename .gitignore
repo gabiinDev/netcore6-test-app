@@ -29,4 +29,5 @@ Web.App/wwwroot/scripts/*.js.map
 *.njsproj
 *.sln
 *.sw?
+.vs/*
 .vs
