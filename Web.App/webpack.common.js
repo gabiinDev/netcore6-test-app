@@ -17,8 +17,6 @@ module.exports = {
             "@": path.resolve(__dirname, "Features")
         }
     },
-    devtool: 'source-map',
-    mode: 'development',
     output: {
         library: {
             name: 'Siniestros',

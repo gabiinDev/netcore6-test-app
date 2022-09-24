@@ -1,7 +1,7 @@
 ﻿{
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "wwwroot/scripts",
+    "outDir": "Features/",
     "rootDirs": [ "Features/*" ],
     "noImplicitAny": true,
     "module": "ESNext",
@@ -27,6 +27,6 @@
     "Features/**/*.vue",
     "Features/**/*.ts"
   ],
-  "exclude": [ "node_modules" ],
+  "exclude": [ "node_modules", "Features/**/*.js" ],
   "compileOnSave": true
 }

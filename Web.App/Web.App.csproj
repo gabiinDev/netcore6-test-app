@@ -28,8 +28,26 @@
   <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
-	
-    <!-- Don't publish the MPA source files, but do show them in the project files list -->
+
+    <Target Name="WebPackBuild" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug'">
+        <Exec Command="npm run build:dev" />
+    </Target>
+
+	<Target Name="WebPackBuild" BeforeTargets="Build" Condition=" '$(Configuration)' != 'Debug'">
+		<Exec Command="npm run build:prod" />
+	</Target>
+
+	<!-- extends watching group to include *.js files -->
+    <ItemGroup>
+        <Watch Include="**\*.cs;**\*.js;**\*.json;**\*.html;**.*.md" Exclude="node_modules\**\*;wwwroot\**\*;" />
+    </ItemGroup>
+    <ItemGroup>
+      <Watch Remove="webpack.common.js" />
+      <Watch Remove="webpack.dev.js" />
+      <Watch Remove="webpack.prod.js" />
+    </ItemGroup>
+
+	<!-- Don't publish the MPA source files, but do show them in the project files list -->
     <!--<ItemGroup>
         <Content Remove="$(MpaRoot)**"/>
         <None Remove="$(MpaRoot)**"/>

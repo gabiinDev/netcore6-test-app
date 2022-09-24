@@ -14,8 +14,16 @@ dist-ssr
 *.local
 Web.App/wwwroot/scripts/*.js
 Web.App/wwwroot/scripts/*.js.map
-**/bin/*
-**/obj/*
+Web.App/bin/**/*
+Web.App/obj/**/*
+Web.App/bin/*
+Web.App/obj/*
+*/bin/**/*
+*/obj/**/*
+*/bin/**
+*/obj/**
+Web.App/Features/*.js
+Web.App/Features/*.js.map
 
 /cypress/videos/
 /cypress/screenshots/
