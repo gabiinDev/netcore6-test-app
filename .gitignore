@@ -12,8 +12,8 @@ node_modules
 dist
 dist-ssr
 *.local
-Web.App/wwwroot/scripts/*.js
-Web.App/wwwroot/scripts/*.js.map
+wwwroot/scripts/*.js
+wwwroot/scripts/*.js.map
 Web.App/bin/**/*
 Web.App/obj/**/*
 Web.App/bin/*
@@ -24,18 +24,42 @@ Web.App/obj/*
 */obj/**
 Web.App/Features/*.js
 Web.App/Features/*.js.map
+Features/*.js
+Features/*.js.map
+bin/**/*
+obj/**/*
+bin/**
+obj/**
 
-/cypress/videos/
-/cypress/screenshots/
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
 
-# Editor directories and files
+# Visual Studio Code
 .vscode
-!.vscode/extensions.json
-.idea
+
+# User-specific files
 *.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-.vs/*
-.vs
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
